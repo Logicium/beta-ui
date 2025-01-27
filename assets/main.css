@@ -1,0 +1,19 @@
+
+#app {
+    font-size: 1.2vw;
+    font-family: "Work Sans", sans-serif;
+    /*font-family: "Bungee Hairline", serif;*/
+    /*font-family: "Lekton", serif;*/
+    font-weight: 500;
+    height: 100vh;
+    background-color: #f8f4f0;
+}
+
+body{
+    margin: 0;
+    background-color: #f8f4f0;
+}
+
+@media (min-width: 1024px) {
+
+}
