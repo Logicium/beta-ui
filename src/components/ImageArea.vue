@@ -19,13 +19,14 @@ setInterval(() => {
     <div class="imgRow">
       <div class="imgSmall"/>
       <div class="imgBig" :style="{'background-image': `url('../../assets/${bigImage}')`}"/>
-      <div class="imgSmall"/>
+      <div class="imgSmall img2"/>
     </div>
 
   </div>
 </template>
 
 <style scoped>
+
 
 
 .imgRow{
@@ -79,4 +80,7 @@ setInterval(() => {
   background-position: 100% 100%;
 }
 
+.img2{
+  background-image: url("../../assets/arch3.jpg");
+}
 </style>
